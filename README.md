@@ -53,9 +53,9 @@ I will learn about bike share use in Chicago, New York City, and Washington by c
   - earliest, most recent, most common year of birth (only available for NYC and Chicago)
   
 ### The Files
-- chicago.csv
-- new_york_city.csv
-- washington.csv
+- [chicago.csv](https://github.com/kfrawee/US-Bikeshare/blob/master/chicago.csv)
+- [new_york_city.csv](https://github.com/kfrawee/US-Bikeshare/blob/master/new_york_city.csv)
+- [washington.csv](https://github.com/kfrawee/US-Bikeshare/blob/master/washington.csv)
 
 ## An Interactive Experience
 
