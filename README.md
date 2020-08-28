@@ -69,5 +69,3 @@ The experience is interactive because depending on a user's input, the answers t
 - (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?<br>
 The answers to the questions above will determine the city and timeframe on which I'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
 ---
-**Check project walkthrough:**<br>
-[![Interactive Experience](https://i.imgur.com/HCi55Am.png)](https://youtu.be/--81WEZH6TQ?t=73 "Bikeshare Project Walkthrough")
