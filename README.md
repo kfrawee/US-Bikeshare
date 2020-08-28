@@ -59,8 +59,8 @@ I will learn about bike share use in Chicago, New York City, and Washington by c
 
 ## An Interactive Experience
 
-[![Interactive Experience](https://i.imgur.com/HCi55Am.png)](https://youtu.be/--81WEZH6TQ?t=73 "Bikeshare Project Walkthrough")
-
+![](https://github.com/kfrawee/US-Bikeshare/blob/master/BikeShare.gif)
+---
 The experience is interactive because depending on a user's input, the answers to the questions on the previous page will change! There are four questions that will change the answers:
 
 - Would you like to see data for Chicago, New York, or Washington?
@@ -69,4 +69,6 @@ The experience is interactive because depending on a user's input, the answers t
 - (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
 
 The answers to the questions above will determine the city and timeframe on which I'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
-
+---
+Check project walkthrough:
+[![Interactive Experience](https://i.imgur.com/HCi55Am.png)](https://youtu.be/--81WEZH6TQ?t=73 "Bikeshare Project Walkthrough")
