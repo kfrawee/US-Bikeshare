@@ -1,7 +1,7 @@
 # Explore US Bikeshare Data [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
 
 
-## Overview:
+## Project overview:
 In this project, I will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I will write code to import the data and answer interesting questions about it by computing descriptive statistics. I will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ## Software needed:
@@ -66,7 +66,7 @@ The experience is interactive because depending on a user's input, the answers t
 - Would you like to see data for Chicago, New York, or Washington?
 - Would you like to filter the data by month, day, or not at all?
 - (If they chose month) Which month - January, February, March, April, May, or June?
-- (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
+- (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?<br>
 The answers to the questions above will determine the city and timeframe on which I'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
 ---
 **Check project walkthrough:**<br>
