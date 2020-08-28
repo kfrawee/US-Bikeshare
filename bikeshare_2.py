@@ -19,6 +19,9 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 
+clear()
+
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -38,7 +41,7 @@ def get_filters():
     while True:
 
         city_selection = input(
-            "\nWould you like to see data for:\n\n\t[1] Chicago\n\t[2] New York City\n\t[3] Washington\n\n[Type the city number or the city name.]\n> ").strip().lower()
+            "\nWould you like to see data for:\n\n\t[1] Chicago\n\t[2] New York City\n\t[3] Washington\n\n[Type the city number or the city name]\n> ").strip().lower()
 
         # Input validation
         if city_selection in city_selection_list:
@@ -196,7 +199,7 @@ def time_stats(df):
     # most common month
     if month == 'all':
         popular_month = df['Month'].mode()[0]
-        print(f"Most Popular Start Month:{popular_month}")
+        print(f"Most Popular Start Month: {popular_month}")
 
     # most common day
     if day == 'all':
@@ -229,7 +232,7 @@ def station_stats(df):
 
     # most commonly used end station
     popular_end_station = df['End Station'].value_counts().index.tolist()[0]
-    print("Most commonly used end station: {popular_end_station}\n")
+    print(f"Most commonly used end station: {popular_end_station}\n")
 
     # most frequent combination of start station and end station trip
     most_frequent_route = df.groupby(['Start Station', 'End Station']).size().reset_index(name='count').sort_values(
@@ -315,7 +318,7 @@ def user_stats(df):
         most_common_year = df['Birth Year'].mode()[0]
         print(f"\nEarliest birth year : {earliest_year}")
         print(f"\nMost recent birth year: {most_recent_year}")
-        print(f"\nMost common birth year:{most_common_year}")
+        print(f"\nMost common birth year: {most_common_year}")
 
     # Error handling for missing data in washington
     except KeyError:
